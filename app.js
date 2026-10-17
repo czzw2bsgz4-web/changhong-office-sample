@@ -13,7 +13,25 @@
       menu.click(); menu.focus();
     }
   });
-  if (!document.querySelector('#product-grid')) return;
+  if (!document.querySelector('#product-grid')) {
+    // 首頁入口同步採用資料檔中的第一款，上下架無須另改首頁。
+    const cards = [...document.querySelectorAll('.category-card')];
+    if (cards.length) fetch('products.json').then(response => {
+      if (!response.ok) throw new Error('資料讀取失敗');return response.json();
+    }).then(data => {
+      for (const card of cards) {
+        const id = card.getAttribute('href').split('#')[1];
+        const product = data.products.find(p => p.category === id);
+        const image = card.querySelector('.category-image img');
+        if (product) {
+          image.src = product.image;
+          image.alt = `${product.series}${product.isIllustration ? '，AI 生成示意圖' : '參考款式'}`;
+          image.hidden = false;
+        } else image.hidden = true;
+      }
+    }).catch(() => { /* 保留靜態分類入口，仍可直接來電或進入型錄。 */ });
+    return;
+  }
   const grid = document.querySelector('#product-grid');
   const status = document.querySelector('#catalog-status');
   const tabs = [...document.querySelectorAll('[data-category]')];
