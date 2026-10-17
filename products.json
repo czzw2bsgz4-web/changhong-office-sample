@@ -1,0 +1,707 @@
+{
+  "updated": "2026-10-17",
+  "notice": "款式眾多，以上為部分參考款式，歡迎來電洽詢",
+  "categories": [
+    {
+      "id": "desks",
+      "name": "主管桌／辦公桌",
+      "description": "從主管辦公室到日常工作區，依照空間與使用習慣挑選。"
+    },
+    {
+      "id": "partitions",
+      "name": "屏風隔間",
+      "description": "劃分工作區域，也保留團隊溝通的彈性。"
+    },
+    {
+      "id": "stations",
+      "name": "獨立工作站",
+      "description": "把桌面、收納與動線，一起放進規劃裡。"
+    },
+    {
+      "id": "meeting",
+      "name": "會議桌",
+      "description": "從小型討論到多人會議，找到合用的桌型。"
+    },
+    {
+      "id": "chairs",
+      "name": "辦公椅",
+      "description": "主管椅、網椅、洽談椅與公共排椅，歡迎來電討論。"
+    },
+    {
+      "id": "storage",
+      "name": "公文櫃與收納",
+      "description": "文件與日常用品，各有方便取用的位置。"
+    },
+    {
+      "id": "sofas",
+      "name": "沙發",
+      "description": "讓接待與等候空間，多一點自在。"
+    }
+  ],
+  "products": [
+    {
+      "id": "desks-1",
+      "category": "desks",
+      "series": "FELIX主管桌系列",
+      "model": "FELIX002",
+      "dimensions": "",
+      "image": "assets/products/desks-1.webp",
+      "fullImage": "assets/products/desks-1-full.webp",
+      "source": "http://www.office-cz.com.tw/images/proucts/hj-ex/felix002-1.jpg",
+      "sourcePage": "http://www.office-cz.com.tw/products.html",
+      "originalFile": "felix002-1.jpg",
+      "isIllustration": false,
+      "originalSize": [
+        1400,
+        1000
+      ]
+    },
+    {
+      "id": "desks-2",
+      "category": "desks",
+      "series": "FELIX主管桌系列",
+      "model": "FELIX005",
+      "dimensions": "",
+      "image": "assets/products/desks-2.webp",
+      "fullImage": "assets/products/desks-2-full.webp",
+      "source": "http://www.office-cz.com.tw/images/proucts/hj-ex/felix005-1.jpg",
+      "sourcePage": "http://www.office-cz.com.tw/products.html",
+      "originalFile": "felix005-1.jpg",
+      "isIllustration": false,
+      "originalSize": [
+        1400,
+        1000
+      ]
+    },
+    {
+      "id": "desks-3",
+      "category": "desks",
+      "series": "FELIX主管桌系列",
+      "model": "FELIX006",
+      "dimensions": "",
+      "image": "assets/products/desks-3.webp",
+      "fullImage": "assets/products/desks-3-full.webp",
+      "source": "http://www.office-cz.com.tw/images/proucts/hj-ex/felix006-1.jpg",
+      "sourcePage": "http://www.office-cz.com.tw/products.html",
+      "originalFile": "felix006-1.jpg",
+      "isIllustration": false,
+      "originalSize": [
+        1400,
+        1000
+      ]
+    },
+    {
+      "id": "desks-4",
+      "category": "desks",
+      "series": "FELIX主管桌系列",
+      "model": "FELIX007",
+      "dimensions": "",
+      "image": "assets/products/desks-4.webp",
+      "fullImage": "assets/products/desks-4-full.webp",
+      "source": "http://www.office-cz.com.tw/images/proucts/hj-ex/felix007-1.jpg",
+      "sourcePage": "http://www.office-cz.com.tw/products.html",
+      "originalFile": "felix007-1.jpg",
+      "isIllustration": false,
+      "originalSize": [
+        1400,
+        1000
+      ]
+    },
+    {
+      "id": "desks-5",
+      "category": "desks",
+      "series": "FELIX主管桌系列",
+      "model": "FELIX009",
+      "dimensions": "",
+      "image": "assets/products/desks-5.webp",
+      "fullImage": "assets/products/desks-5-full.webp",
+      "source": "http://www.office-cz.com.tw/images/proucts/hj-ex/felix009-1.jpg",
+      "sourcePage": "http://www.office-cz.com.tw/products.html",
+      "originalFile": "felix009-1.jpg",
+      "isIllustration": false,
+      "originalSize": [
+        1400,
+        1000
+      ]
+    },
+    {
+      "id": "desks-6",
+      "category": "desks",
+      "series": "AB辦公桌系列",
+      "model": "AB1-7",
+      "dimensions": "W140*D70*H74；W150*D70*H74",
+      "image": "assets/products/desks-6.webp",
+      "fullImage": "assets/products/desks-6-full.webp",
+      "source": "http://www.office-cz.com.tw/images/proucts/desk/ab/ab1-7-1.jpg",
+      "sourcePage": "http://www.office-cz.com.tw/page/oa/desk/ab001.html",
+      "originalFile": "ab1-7-1.jpg",
+      "isIllustration": false,
+      "originalSize": [
+        1400,
+        1000
+      ]
+    },
+    {
+      "id": "partitions-1",
+      "category": "partitions",
+      "series": "2.5公分屏風系列",
+      "model": "BTA01",
+      "dimensions": "",
+      "image": "assets/products/partitions-1.webp",
+      "fullImage": "assets/products/partitions-1-full.webp",
+      "source": "http://www.office-cz.com.tw/images/proucts/partition/two/bta01-1.jpg",
+      "sourcePage": "http://www.office-cz.com.tw/page/oa/partition/two001.html",
+      "originalFile": "bta01-1.jpg",
+      "isIllustration": false,
+      "originalSize": [
+        1400,
+        1000
+      ]
+    },
+    {
+      "id": "partitions-2",
+      "category": "partitions",
+      "series": "2.5公分屏風系列",
+      "model": "BTA02",
+      "dimensions": "",
+      "image": "assets/products/partitions-2.webp",
+      "fullImage": "assets/products/partitions-2-full.webp",
+      "source": "http://www.office-cz.com.tw/images/proucts/partition/two/bta02-1.jpg",
+      "sourcePage": "http://www.office-cz.com.tw/page/oa/partition/two001.html",
+      "originalFile": "bta02-1.jpg",
+      "isIllustration": false,
+      "originalSize": [
+        1400,
+        1000
+      ]
+    },
+    {
+      "id": "partitions-3",
+      "category": "partitions",
+      "series": "2.5公分屏風系列",
+      "model": "BTA04",
+      "dimensions": "",
+      "image": "assets/products/partitions-3.webp",
+      "fullImage": "assets/products/partitions-3-full.webp",
+      "source": "http://www.office-cz.com.tw/images/proucts/partition/two/bta04-1.jpg",
+      "sourcePage": "http://www.office-cz.com.tw/page/oa/partition/two001.html",
+      "originalFile": "bta04-1.jpg",
+      "isIllustration": false,
+      "originalSize": [
+        1400,
+        1000
+      ]
+    },
+    {
+      "id": "partitions-4",
+      "category": "partitions",
+      "series": "2.5公分屏風系列",
+      "model": "BTA06",
+      "dimensions": "",
+      "image": "assets/products/partitions-4.webp",
+      "fullImage": "assets/products/partitions-4-full.webp",
+      "source": "http://www.office-cz.com.tw/images/proucts/partition/two/bta06-1.jpg",
+      "sourcePage": "http://www.office-cz.com.tw/page/oa/partition/two001.html",
+      "originalFile": "bta06-1.jpg",
+      "isIllustration": false,
+      "originalSize": [
+        1400,
+        1000
+      ]
+    },
+    {
+      "id": "partitions-5",
+      "category": "partitions",
+      "series": "6公分屏風系列",
+      "model": "BTA0202",
+      "dimensions": "",
+      "image": "assets/products/partitions-5.webp",
+      "fullImage": "assets/products/partitions-5-full.webp",
+      "source": "http://www.office-cz.com.tw/images/proucts/partition/six/bta0202-1.jpg",
+      "sourcePage": "http://www.office-cz.com.tw/page/oa/partition/six001.html",
+      "originalFile": "bta0202-1.jpg",
+      "isIllustration": false,
+      "originalSize": [
+        1400,
+        1000
+      ]
+    },
+    {
+      "id": "partitions-6",
+      "category": "partitions",
+      "series": "6公分屏風系列",
+      "model": "BTA0205",
+      "dimensions": "",
+      "image": "assets/products/partitions-6.webp",
+      "fullImage": "assets/products/partitions-6-full.webp",
+      "source": "http://www.office-cz.com.tw/images/proucts/partition/six/bta0205-1.jpg",
+      "sourcePage": "http://www.office-cz.com.tw/page/oa/partition/six001.html",
+      "originalFile": "bta0205-1.jpg",
+      "isIllustration": false,
+      "originalSize": [
+        1400,
+        1000
+      ]
+    },
+    {
+      "id": "stations-1",
+      "category": "stations",
+      "series": "BOSS獨立工作站系列",
+      "model": "BOS002",
+      "dimensions": "",
+      "image": "assets/products/stations-1.webp",
+      "fullImage": "assets/products/stations-1-full.webp",
+      "source": "http://www.office-cz.com.tw/images/proucts/station/bos/bos002-1.jpg",
+      "sourcePage": "http://www.office-cz.com.tw/page/oa/station/bos001.html",
+      "originalFile": "bos002-1.jpg",
+      "isIllustration": false,
+      "originalSize": [
+        1400,
+        1000
+      ]
+    },
+    {
+      "id": "stations-2",
+      "category": "stations",
+      "series": "BOSS獨立工作站系列",
+      "model": "BOS003",
+      "dimensions": "",
+      "image": "assets/products/stations-2.webp",
+      "fullImage": "assets/products/stations-2-full.webp",
+      "source": "http://www.office-cz.com.tw/images/proucts/station/bos/bos003-1.jpg",
+      "sourcePage": "http://www.office-cz.com.tw/page/oa/station/bos001.html",
+      "originalFile": "bos003-1.jpg",
+      "isIllustration": false,
+      "originalSize": [
+        1400,
+        1000
+      ]
+    },
+    {
+      "id": "stations-3",
+      "category": "stations",
+      "series": "BOSS獨立工作站系列",
+      "model": "BOS004",
+      "dimensions": "",
+      "image": "assets/products/stations-3.webp",
+      "fullImage": "assets/products/stations-3-full.webp",
+      "source": "http://www.office-cz.com.tw/images/proucts/station/bos/bos004-1.jpg",
+      "sourcePage": "http://www.office-cz.com.tw/page/oa/station/bos001.html",
+      "originalFile": "bos004-1.jpg",
+      "isIllustration": false,
+      "originalSize": [
+        1400,
+        1000
+      ]
+    },
+    {
+      "id": "stations-4",
+      "category": "stations",
+      "series": "BOSS獨立工作站系列",
+      "model": "BOS006",
+      "dimensions": "",
+      "image": "assets/products/stations-4.webp",
+      "fullImage": "assets/products/stations-4-full.webp",
+      "source": "http://www.office-cz.com.tw/images/proucts/station/bos/bos006-1.jpg",
+      "sourcePage": "http://www.office-cz.com.tw/page/oa/station/bos001.html",
+      "originalFile": "bos006-1.jpg",
+      "isIllustration": false,
+      "originalSize": [
+        1400,
+        1000
+      ]
+    },
+    {
+      "id": "stations-5",
+      "category": "stations",
+      "series": "BOSS獨立工作站系列",
+      "model": "BOS007",
+      "dimensions": "",
+      "image": "assets/products/stations-5.webp",
+      "fullImage": "assets/products/stations-5-full.webp",
+      "source": "http://www.office-cz.com.tw/images/proucts/station/bos/bos007-1.jpg",
+      "sourcePage": "http://www.office-cz.com.tw/page/oa/station/bos002.html",
+      "originalFile": "bos007-1.jpg",
+      "isIllustration": false,
+      "originalSize": [
+        1400,
+        1000
+      ]
+    },
+    {
+      "id": "stations-6",
+      "category": "stations",
+      "series": "BOSS獨立工作站系列",
+      "model": "BOS008",
+      "dimensions": "",
+      "image": "assets/products/stations-6.webp",
+      "fullImage": "assets/products/stations-6-full.webp",
+      "source": "http://www.office-cz.com.tw/images/proucts/station/bos/bos008-1.jpg",
+      "sourcePage": "http://www.office-cz.com.tw/page/oa/station/bos002.html",
+      "originalFile": "bos008-1.jpg",
+      "isIllustration": false,
+      "originalSize": [
+        1400,
+        1000
+      ]
+    },
+    {
+      "id": "meeting-1",
+      "category": "meeting",
+      "series": "會議桌系列",
+      "model": "6587",
+      "dimensions": "",
+      "image": "assets/products/meeting-1.webp",
+      "fullImage": "assets/products/meeting-1-full.webp",
+      "source": "http://www.office-cz.com.tw/images/proucts/meeting/6587-1.jpg",
+      "sourcePage": "http://www.office-cz.com.tw/page/oa/meet001.html",
+      "originalFile": "6587-1.jpg",
+      "isIllustration": false,
+      "originalSize": [
+        1400,
+        1000
+      ]
+    },
+    {
+      "id": "meeting-2",
+      "category": "meeting",
+      "series": "會議桌系列",
+      "model": "6591",
+      "dimensions": "",
+      "image": "assets/products/meeting-2.webp",
+      "fullImage": "assets/products/meeting-2-full.webp",
+      "source": "http://www.office-cz.com.tw/images/proucts/meeting/6591-1.jpg",
+      "sourcePage": "http://www.office-cz.com.tw/page/oa/meet001.html",
+      "originalFile": "6591-1.jpg",
+      "isIllustration": false,
+      "originalSize": [
+        1400,
+        1000
+      ]
+    },
+    {
+      "id": "meeting-3",
+      "category": "meeting",
+      "series": "會議桌系列",
+      "model": "6592",
+      "dimensions": "",
+      "image": "assets/products/meeting-3.webp",
+      "fullImage": "assets/products/meeting-3-full.webp",
+      "source": "http://www.office-cz.com.tw/images/proucts/meeting/6592-1.jpg",
+      "sourcePage": "http://www.office-cz.com.tw/page/oa/meet001.html",
+      "originalFile": "6592-1.jpg",
+      "isIllustration": false,
+      "originalSize": [
+        1400,
+        1000
+      ]
+    },
+    {
+      "id": "meeting-4",
+      "category": "meeting",
+      "series": "會議桌系列",
+      "model": "8989",
+      "dimensions": "",
+      "image": "assets/products/meeting-4.webp",
+      "fullImage": "assets/products/meeting-4-full.webp",
+      "source": "http://www.office-cz.com.tw/images/proucts/meeting/8989-1.jpg",
+      "sourcePage": "http://www.office-cz.com.tw/page/oa/meet001.html",
+      "originalFile": "8989-1.jpg",
+      "isIllustration": false,
+      "originalSize": [
+        1400,
+        1000
+      ]
+    },
+    {
+      "id": "meeting-5",
+      "category": "meeting",
+      "series": "會議桌系列",
+      "model": "HJ001",
+      "dimensions": "",
+      "image": "assets/products/meeting-5.webp",
+      "fullImage": "assets/products/meeting-5-full.webp",
+      "source": "http://www.office-cz.com.tw/images/proucts/meeting/hj001.jpg",
+      "sourcePage": "http://www.office-cz.com.tw/page/oa/meet001.html",
+      "originalFile": "hj001.jpg",
+      "isIllustration": false,
+      "originalSize": [
+        200,
+        150
+      ]
+    },
+    {
+      "id": "meeting-6",
+      "category": "meeting",
+      "series": "會議桌系列",
+      "model": "HJ003",
+      "dimensions": "",
+      "image": "assets/products/meeting-6.webp",
+      "fullImage": "assets/products/meeting-6-full.webp",
+      "source": "http://www.office-cz.com.tw/images/proucts/meeting/hj003.jpg",
+      "sourcePage": "http://www.office-cz.com.tw/page/oa/meet001.html",
+      "originalFile": "hj003.jpg",
+      "isIllustration": false,
+      "originalSize": [
+        200,
+        150
+      ]
+    },
+    {
+      "id": "chair-1",
+      "category": "chairs",
+      "series": "主管辦公椅",
+      "model": "一般款式參考",
+      "dimensions": "",
+      "image": "assets/products/chair-1.webp",
+      "fullImage": "assets/products/chair-1.webp",
+      "source": "AI 生成",
+      "sourcePage": "",
+      "originalFile": "主管辦公椅.png",
+      "isIllustration": true
+    },
+    {
+      "id": "chair-2",
+      "category": "chairs",
+      "series": "人體工學網椅",
+      "model": "一般款式參考",
+      "dimensions": "",
+      "image": "assets/products/chair-2.webp",
+      "fullImage": "assets/products/chair-2.webp",
+      "source": "AI 生成",
+      "sourcePage": "",
+      "originalFile": "人體工學網椅.png",
+      "isIllustration": true
+    },
+    {
+      "id": "chair-3",
+      "category": "chairs",
+      "series": "會議洽談椅",
+      "model": "一般款式參考",
+      "dimensions": "",
+      "image": "assets/products/chair-3.webp",
+      "fullImage": "assets/products/chair-3.webp",
+      "source": "AI 生成",
+      "sourcePage": "",
+      "originalFile": "會議洽談椅.png",
+      "isIllustration": true
+    },
+    {
+      "id": "chair-4",
+      "category": "chairs",
+      "series": "公共排椅",
+      "model": "一般款式參考",
+      "dimensions": "",
+      "image": "assets/products/chair-4.webp",
+      "fullImage": "assets/products/chair-4.webp",
+      "source": "AI 生成",
+      "sourcePage": "",
+      "originalFile": "公共排椅.png",
+      "isIllustration": true
+    },
+    {
+      "id": "storage-1",
+      "category": "storage",
+      "series": "公文櫃系列",
+      "model": "1-40",
+      "dimensions": "",
+      "image": "assets/products/storage-1.webp",
+      "fullImage": "assets/products/storage-1-full.webp",
+      "source": "http://www.office-cz.com.tw/images/proucts/cabinet/ca/1-40-1.jpg",
+      "sourcePage": "http://www.office-cz.com.tw/page/oa/cabinet/ca001.html",
+      "originalFile": "1-40-1.jpg",
+      "isIllustration": false,
+      "originalSize": [
+        1400,
+        1000
+      ]
+    },
+    {
+      "id": "storage-2",
+      "category": "storage",
+      "series": "公文櫃系列",
+      "model": "1-42",
+      "dimensions": "",
+      "image": "assets/products/storage-2.webp",
+      "fullImage": "assets/products/storage-2-full.webp",
+      "source": "http://www.office-cz.com.tw/images/proucts/cabinet/ca/1-42-1.jpg",
+      "sourcePage": "http://www.office-cz.com.tw/page/oa/cabinet/ca001.html",
+      "originalFile": "1-42-1.jpg",
+      "isIllustration": false,
+      "originalSize": [
+        1400,
+        1000
+      ]
+    },
+    {
+      "id": "storage-3",
+      "category": "storage",
+      "series": "公文櫃系列",
+      "model": "1-46",
+      "dimensions": "",
+      "image": "assets/products/storage-3.webp",
+      "fullImage": "assets/products/storage-3-full.webp",
+      "source": "http://www.office-cz.com.tw/images/proucts/cabinet/ca/1-46-1.jpg",
+      "sourcePage": "http://www.office-cz.com.tw/page/oa/cabinet/ca001.html",
+      "originalFile": "1-46-1.jpg",
+      "isIllustration": false,
+      "originalSize": [
+        1400,
+        1000
+      ]
+    },
+    {
+      "id": "storage-4",
+      "category": "storage",
+      "series": "公文櫃系列",
+      "model": "1-48",
+      "dimensions": "",
+      "image": "assets/products/storage-4.webp",
+      "fullImage": "assets/products/storage-4-full.webp",
+      "source": "http://www.office-cz.com.tw/images/proucts/cabinet/ca/1-48-1.jpg",
+      "sourcePage": "http://www.office-cz.com.tw/page/oa/cabinet/ca001.html",
+      "originalFile": "1-48-1.jpg",
+      "isIllustration": false,
+      "originalSize": [
+        1400,
+        1000
+      ]
+    },
+    {
+      "id": "storage-5",
+      "category": "storage",
+      "series": "活動櫃系列",
+      "model": "OA-E01",
+      "dimensions": "",
+      "image": "assets/products/storage-5.webp",
+      "fullImage": "assets/products/storage-5-full.webp",
+      "source": "http://www.office-cz.com.tw/images/proucts/cabinet/mca/OA-E01-1.jpg",
+      "sourcePage": "http://www.office-cz.com.tw/page/oa/cabinet/mca001.html",
+      "originalFile": "OA-E01-1.jpg",
+      "isIllustration": false,
+      "originalSize": [
+        1400,
+        1000
+      ]
+    },
+    {
+      "id": "storage-6",
+      "category": "storage",
+      "series": "活動櫃系列",
+      "model": "OA-S02",
+      "dimensions": "",
+      "image": "assets/products/storage-6.webp",
+      "fullImage": "assets/products/storage-6-full.webp",
+      "source": "http://www.office-cz.com.tw/images/proucts/cabinet/mca/OA-S02-1.jpg",
+      "sourcePage": "http://www.office-cz.com.tw/page/oa/cabinet/mca001.html",
+      "originalFile": "OA-S02-1.jpg",
+      "isIllustration": false,
+      "originalSize": [
+        1400,
+        1000
+      ]
+    },
+    {
+      "id": "sofas-1",
+      "category": "sofas",
+      "series": "辦公沙發系列",
+      "model": "CS-580",
+      "dimensions": "",
+      "image": "assets/products/sofas-1.webp",
+      "fullImage": "assets/products/sofas-1-full.webp",
+      "source": "http://www.office-cz.com.tw/images/proucts/sofa/sofa/CS-580-1.jpg",
+      "sourcePage": "http://www.office-cz.com.tw/page/oa/sofa/sofa/sofa001.html",
+      "originalFile": "CS-580-1.jpg",
+      "isIllustration": false,
+      "originalSize": [
+        1400,
+        1000
+      ]
+    },
+    {
+      "id": "sofas-2",
+      "category": "sofas",
+      "series": "辦公沙發系列",
+      "model": "CS-583",
+      "dimensions": "",
+      "image": "assets/products/sofas-2.webp",
+      "fullImage": "assets/products/sofas-2-full.webp",
+      "source": "http://www.office-cz.com.tw/images/proucts/sofa/sofa/CS-583-1.jpg",
+      "sourcePage": "http://www.office-cz.com.tw/page/oa/sofa/sofa/sofa001.html",
+      "originalFile": "CS-583-1.jpg",
+      "isIllustration": false,
+      "originalSize": [
+        1400,
+        1000
+      ]
+    },
+    {
+      "id": "sofas-3",
+      "category": "sofas",
+      "series": "辦公沙發系列",
+      "model": "CS-585",
+      "dimensions": "",
+      "image": "assets/products/sofas-3.webp",
+      "fullImage": "assets/products/sofas-3-full.webp",
+      "source": "http://www.office-cz.com.tw/images/proucts/sofa/sofa/CS-585-1.jpg",
+      "sourcePage": "http://www.office-cz.com.tw/page/oa/sofa/sofa/sofa001.html",
+      "originalFile": "CS-585-1.jpg",
+      "isIllustration": false,
+      "originalSize": [
+        1400,
+        1000
+      ]
+    },
+    {
+      "id": "sofas-4",
+      "category": "sofas",
+      "series": "辦公沙發系列",
+      "model": "CS-586",
+      "dimensions": "",
+      "image": "assets/products/sofas-4.webp",
+      "fullImage": "assets/products/sofas-4-full.webp",
+      "source": "http://www.office-cz.com.tw/images/proucts/sofa/sofa/CS-586-1.jpg",
+      "sourcePage": "http://www.office-cz.com.tw/page/oa/sofa/sofa/sofa001.html",
+      "originalFile": "CS-586-1.jpg",
+      "isIllustration": false,
+      "originalSize": [
+        1400,
+        1000
+      ]
+    },
+    {
+      "id": "sofas-5",
+      "category": "sofas",
+      "series": "辦公沙發系列",
+      "model": "CS-587",
+      "dimensions": "",
+      "image": "assets/products/sofas-5.webp",
+      "fullImage": "assets/products/sofas-5-full.webp",
+      "source": "http://www.office-cz.com.tw/images/proucts/sofa/sofa/CS-587-1.jpg",
+      "sourcePage": "http://www.office-cz.com.tw/page/oa/sofa/sofa/sofa001.html",
+      "originalFile": "CS-587-1.jpg",
+      "isIllustration": false,
+      "originalSize": [
+        1400,
+        1000
+      ]
+    },
+    {
+      "id": "sofas-6",
+      "category": "sofas",
+      "series": "辦公沙發系列",
+      "model": "CS-590",
+      "dimensions": "",
+      "image": "assets/products/sofas-6.webp",
+      "fullImage": "assets/products/sofas-6-full.webp",
+      "source": "http://www.office-cz.com.tw/images/proucts/sofa/sofa/CS-590-1.jpg",
+      "sourcePage": "http://www.office-cz.com.tw/page/oa/sofa/sofa/sofa001.html",
+      "originalFile": "CS-590-1.jpg",
+      "isIllustration": false,
+      "originalSize": [
+        1400,
+        1000
+      ]
+    }
+  ]
+}
