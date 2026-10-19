@@ -16,7 +16,7 @@
   if (!document.querySelector('#product-grid')) {
     // 首頁入口同步採用資料檔中的第一款，上下架無須另改首頁。
     const cards = [...document.querySelectorAll('.category-card')];
-    if (cards.length) fetch('products.json').then(response => {
+    if (cards.length) fetch('products.json', { cache: 'no-cache' }).then(response => {
       if (!response.ok) throw new Error('資料讀取失敗');return response.json();
     }).then(data => {
       for (const card of cards) {
@@ -70,7 +70,7 @@
     document.querySelector('#category-description').textContent = category.description;
     const selected = data.products.filter(p => p.category === category.id);
     document.querySelector('#product-count').textContent = `${selected.length} 款參考`;
-    document.querySelector('#chair-notice').hidden = category.id !== 'chairs';
+    document.querySelector('#chair-notice').hidden = category.id !== 'chairs' || !selected.length;
     document.querySelector('.catalog-section').classList.toggle('chair-active', category.id === 'chairs');
     const fragment = document.createDocumentFragment();
     for (const p of selected) {
@@ -87,7 +87,16 @@
       if (p.dimensions) card.append(el('p', 'product-dimensions', `尺寸：${p.dimensions}`));
       fragment.append(card);
     }
-    grid.replaceChildren(fragment);status.hidden = true;
+    grid.replaceChildren(fragment);
+    if (!selected.length) {
+      status.hidden = false;
+      status.textContent = '此類款式整理中，歡迎來電洽詢。';
+      status.classList.add('catalog-empty');
+    } else {
+      status.hidden = true;
+      status.classList.remove('catalog-empty');
+    }
+    document.querySelector('.catalog-note').hidden = !selected.length;
   }
   tabs.forEach((tab, index) => {
     tab.addEventListener('click', () => {
@@ -104,7 +113,7 @@
     });
   });
   window.addEventListener('hashchange', () => render(location.hash.slice(1)));
-  fetch('products.json').then(response => {
+  fetch('products.json', { cache: 'no-cache' }).then(response => {
     if (!response.ok) throw new Error('資料讀取失敗');return response.json();
   }).then(result => {
     if (!Array.isArray(result.categories) || !Array.isArray(result.products) || !result.categories.length) throw new Error('資料格式不完整');
