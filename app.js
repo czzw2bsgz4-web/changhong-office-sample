@@ -79,7 +79,7 @@
       if (p.originalSize?.[0] <= 400) button.classList.add('native-size');
       button.type = 'button'; button.setAttribute('aria-label', `查看 ${p.series} ${p.model} 大圖`);
       const image = el('img');image.src = p.image;image.alt = `${p.series} ${p.model}${p.isIllustration ? '，AI 生成示意圖' : ''}`;
-      image.loading = 'lazy';image.width = 1000;image.height = 667;
+      image.loading = 'eager';image.width = 1000;image.height = 667;
       button.append(image);
       if (p.isIllustration) button.append(el('span', 'illustration-badge', '示意圖'));
       const zoom = el('span', 'photo-zoom');const plus = el('img', 'icon');plus.src = 'assets/icons/plus-lg.svg';plus.alt = '';zoom.append(plus);button.append(zoom);
