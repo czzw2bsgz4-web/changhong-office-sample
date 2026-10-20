@@ -13,6 +13,15 @@
       menu.click(); menu.focus();
     }
   });
+  // 接近畫面前預取下方照片，保留原生延後載入作為備援。
+  if ('IntersectionObserver' in window) {
+    const near = new IntersectionObserver(entries => {
+      entries.forEach(({target, isIntersecting}) => {
+        if (isIntersecting) { target.loading = 'eager'; near.unobserve(target); }
+      });
+    }, {root: document.querySelector('.site-scroll'), rootMargin: '800px 0px'});
+    document.querySelectorAll('img[loading="lazy"]').forEach(image => near.observe(image));
+  }
   if (!document.querySelector('#product-grid')) {
     // 首頁入口同步採用資料檔中的第一款，上下架無須另改首頁。
     const cards = [...document.querySelectorAll('.category-card')];
@@ -43,10 +52,34 @@
     if (text) node.textContent = text;
     return node;
   };
+  const photo = document.querySelector('#dialog-photo');
+  const imageArea = document.querySelector('.dialog-image');
+  const feedback = document.querySelector('.image-feedback');
+  const imageStatus = document.querySelector('#image-status');
+  const retry = document.querySelector('#image-retry');
+  let currentImage = '';
+  const loadPhoto = () => {
+    imageArea.setAttribute('aria-busy', 'true');
+    photo.style.visibility = 'hidden'; feedback.hidden = false; retry.hidden = true;
+    imageStatus.textContent = '圖片載入中…';
+    photo.onload = () => {
+      photo.style.visibility = 'visible'; feedback.hidden = true;
+      imageArea.setAttribute('aria-busy', 'false');
+    };
+    photo.onerror = () => {
+      imageArea.setAttribute('aria-busy', 'false');
+      imageStatus.textContent = '圖片暫時無法載入，請重試或來電洽詢。'; retry.hidden = false;
+    };
+    photo.src = currentImage;
+  };
+  retry.addEventListener('click', loadPhoto);
+  document.querySelector('.catalog-return').addEventListener('click', () => {
+    const active = tabs.find(tab => tab.getAttribute('aria-selected') === 'true') || tabs[0];
+    active.focus({preventScroll:true}); active.scrollIntoView({block:'center'});
+  });
   const openProduct = p => {
     document.querySelector('#dialog-title').textContent = `${p.series} ${p.model}`;
-    const photo = document.querySelector('#dialog-photo');
-    photo.src = p.fullImage; photo.alt = `${p.series} ${p.model}${p.isIllustration ? '，AI 生成示意圖' : '，舊站原圖'}`;
+    currentImage = p.fullImage; loadPhoto(); photo.alt = `${p.series} ${p.model}${p.isIllustration ? '，AI 生成示意圖' : '，舊站原圖'}`;
     document.querySelector('#dialog-illustration').hidden = !p.isIllustration;
     document.querySelector('#dialog-dimensions').textContent = p.dimensions ? `舊站尺寸：${p.dimensions}` : '';
     document.querySelector('#dialog-note').textContent = p.isIllustration ? '此為 AI 生成示意圖，非實際供貨產品照片。實際款式請來電確認。' : '舊站款式參考。現行規格、顏色與供貨情形，請來電確認。';
